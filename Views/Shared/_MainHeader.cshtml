@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+    <title>HomeOA</title>
+    <link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+    <script language="javascript" type="text/javascript" src="/Scripts/Common/jquery-1.7.1.min.js"></script>
+</head>
+<body>
+    <div id="top">
+        <div id="header">
+            <div class="menu">
+                <ul>
+                    @{  <li><a href="/Setup/Index">
+                        <img src="../../Content/Image/Logo.png" alt="logo" width="70" height="49" class="a" />
+                    </a></li>
+                        <li><a href="/Setup/Index">Profile</a></li>
+                        <li><a href="/Setup/News">News</a></li>
+                        <li><a href="/Setup/Product">Product</a></li>
+                        <li><a href="/Setup/About">About</a></li>
+                        <li><a href="/Setup/Help">Help</a></li>
+                        <li><a href="/Setup/Help">Orther</a></li>
+                        <li><a href="/Setup/Help">Terms</a></li>
+                        <li><a href="/Setup/Help">Shop</a></li>
+                        <li><a href="/Setup/Help">Blog</a></li> 
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+        @RenderBody()
+    </div>
+    
+    <div id="bottom">
+        <div id="bottom">
+            <div class="menu">
+                <ul>
+                    @{ 
+                        <li><a href="/Setup/Index">Profile</a></li>
+                        <li><a href="/Setup/News">News</a></li>
+                        <li><a href="/Setup/Product">Product</a></li>
+                        <li><a href="/Setup/About">About</a></li>
+                        <li><a href="/Setup/Help">Help</a></li>
+                        <li><a href="/Setup/Help">Orther</a></li>
+                        <li><a href="/Setup/Help">Terms</a></li>
+                        <li><a href="/Setup/Help">Shop</a></li>
+                        <li><a href="/Setup/Help">Blog</a></li> 
+                         <li><a href="/Setup/Index">
+                        <img src="../../Content/Image/Logo.png" alt="logo" width="70" height="49" class="a" />
+                    </a></li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+

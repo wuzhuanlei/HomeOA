@@ -1,0 +1,407 @@
+﻿*
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a
+{
+    color: #656565;
+    text-decoration: none;
+}
+
+    a:hover
+    {
+        color: #0062a7;
+        text-decoration: none;
+    }
+
+img
+{
+    display: block;
+    border: none;
+}
+
+body
+{
+    width: 1003px;
+    color: #656565;
+    margin: 0 auto;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#top
+{
+    width: 1024px;
+    margin: 0 auto;
+    height: 39px;
+}
+
+    #top #header
+    {
+        width: 1024px;
+        vertical-align: bottom;
+        margin: 0 auto;
+    }
+
+        #top #header img.a
+        {
+            float: left;
+        }
+
+        #top #header img.b
+        {
+            float: right;
+            margin-right: 20px;
+        }
+
+        #top #header p
+        {
+            float: right;
+            margin-right: 30px;
+            font-size: 22px;
+            font-weight: bold;
+            width: 453px;
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 30px;
+            height: 51px;
+            text-align: right;
+            color: #0086e3;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+.menu
+{
+    margin-left: 0px;
+    width: 1024px;
+    padding-left: 0px;
+    padding-top: 1px;
+    height: 37px;
+    line-height: 36px;
+    clear: both;
+    text-decoration: none;
+}
+
+    .menu ul
+    {
+        width: 1003px;
+        position: relative;
+        height: 37px;
+        text-align: center;
+    }
+
+    .menu li
+    {
+        width: 100px;
+        height: 36px;
+        float: left;
+        font: bold;
+        font-size:14px;
+        line-height: 36px;
+        text-align: center;
+        vertical-align:bottom;
+        float: left;
+    }
+    .menu ul ul
+    {
+        visibility: hidden;
+        position: absolute;
+        width: 816px;
+        height: 27px;
+        text-align: center;
+        left: 0px;
+        padding: 0;
+        margin: 0;
+        top: 5px;
+    }
+
+        .menu ul ul#aa
+        {
+            display: block;
+            padding-left: 100px !important;
+            padding-left: 100px !important;
+            padding-left: 150px;
+            visibility: hidden;
+            position: absolute;
+            width: 673px;
+            height: 27px;
+            text-align: center;
+            left: 0px;
+            margin: 0;
+            top: 0px;
+        }
+
+        .menu ul ul#bb
+        {
+            display: block;
+            padding-left: 200px !important;
+            padding-left: 200px !important;
+            padding-left: 280px;
+            visibility: hidden;
+            position: absolute;
+            width: 816px;
+            height: 27px;
+            text-align: center;
+            left: 0px;
+            padding: 0;
+            margin: 0;
+            top: 0px;
+        }
+
+        .menu ul ul#cc
+        {
+            display: block;
+            padding-left: 300px !important;
+            padding-left: 300px !important;
+            padding-left: 380px;
+            visibility: hidden;
+            position: absolute;
+            width: 683px;
+            height: 27px;
+            text-align: center;
+            left: 0px;
+            margin: 0;
+            top: 0px;
+        }
+
+        .menu ul ul#dd
+        {
+            display: block;
+            padding-left: 400px !important;
+            padding-left: 400px !important;
+            padding-left: 460px;
+            visibility: hidden;
+            position: absolute;
+            width: 533px;
+            height: 27px;
+            text-align: center;
+            left: 0px;
+            margin: 0;
+            top: 0px;
+        }
+
+        .menu ul ul#ee
+        {
+            display: block;
+            padding-left: 0px !important;
+            padding-left: 0px !important;
+            padding-left: 50px;
+            visibility: hidden;
+            position: absolute;
+            width: 833px;
+            text-align: left;
+            left: 0px;
+            margin: 0;
+            top: 0px;
+        }
+
+    .menu ul li:hover ul#aa, .menu ul a:hover ul#aa
+    {
+        display: block;
+        visibility: visible;
+        top: 37px;
+        height: 18px;
+    }
+
+    .menu ul li:hover ul#bb, .menu ul a:hover ul#bb
+    {
+        display: block;
+        visibility: visible;
+        top: 37px;
+        height: 18px;
+    }
+
+    .menu ul li:hover ul#cc, .menu ul a:hover ul#cc
+    {
+        display: block;
+        visibility: visible;
+        top: 37px;
+        height: 18px;
+    }
+
+    .menu ul li:hover ul#dd, .menu ul a:hover ul#dd
+    {
+        display: block;
+        visibility: visible;
+        top: 37px;
+        height: 18px;
+    }
+
+    .menu ul li:hover ul#ee, .menu ul a:hover ul#ee
+    {
+        display: block;
+        visibility: visible;
+        top: 37px;
+        height: 18px;
+    }
+
+    .menu a b
+    {
+        display: block;
+        cursor: pointer;
+        width: 158px;
+        height: 27px;
+    }
+
+    .menu li a
+    {
+        width: 100px;
+        height: 37px;
+        float: left;
+        line-height: 36px;
+        text-align: center;
+        text-align: center;
+    }
+
+    .menu :hover
+    {
+        white-space: normal;
+        text-align: center;
+    }
+
+    .menu ul li ul li
+    {
+        width: 110px;
+        color: #006cb8;
+        background: NONE;
+        text-align: center;
+        height: 18px;
+        line-height: 18px;
+    }
+
+        .menu ul li ul li a
+        {
+            width: 110px;
+            background: none;
+            display: block;
+            font-family: "宋体";
+            font-size: 12px;
+            font-weight: normal;
+        }
+
+    .menu ul:hover ul li a
+    {
+        text-align: center;
+        height: 18px;
+        line-height: 18px;
+        display: block;
+        width: 110px;
+        text-align: center;
+        margin: 0 0 0 55px;
+        padding: 0 10px;
+        color: #006cb8;
+    }
+
+    .menu ul li ul li a:hover
+    {
+        background: none;
+        display: block;
+        padding: 0 10px;
+        font-family: "宋体";
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    .menu ul:hover ul li a:hover
+    {
+        text-align: center;
+        height: 18px;
+        line-height: 18px;
+        display: block;
+        width: 110px;
+        text-align: center;
+        margin: 0 0 0 55px;
+        padding: 0 10px;
+    }
+
+    .menu ul li:hover ul, .menu ul a:hover ul
+    {
+        display: block;
+        visibility: visible;
+        top: 27px;
+        color: #FFF;
+        height: 18px;
+    }
+
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+body
+{
+    font-size: .85em;
+    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    color: #232323;
+    background-color: #fff;
+}
+
+header,
+footer,
+nav,
+section
+{
+    display: block;
+}
+
+/* Styles for basic forms
+-----------------------------------------------------------*/
+
+fieldset
+{
+    border: 1px solid #ddd;
+    padding: 0 1.4em 1.4em 1.4em;
+    margin: 0 0 1.5em 0;
+}
+
+legend
+{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+textarea
+{
+    min-height: 75px;
+}
+
+.editor-label
+{
+    margin: 1em 0 0 0;
+}
+
+.editor-field
+{
+    margin: 0.5em 0 0 0;
+}
+
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
